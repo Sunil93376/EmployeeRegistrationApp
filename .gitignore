@@ -361,3 +361,22 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.log
+
+# Visual Studio
+.vs/
+*.dbmdl
+*.jfm
+
+# Entity Framework
+Migrations/
+
+# Others
+*.DS_Store
+*.env
